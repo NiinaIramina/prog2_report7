@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//並び替えの関数
 void sortDescending(int arr[], int size) {
     // 降順ソート（選択ソートを使用）
     for (int i = 0; i < size - 1; i++) {
